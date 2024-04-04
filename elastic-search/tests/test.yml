@@ -3,4 +3,4 @@
   become: yes
   gather_facts: yes
   roles:
-    - /home/naresh/kibana-tool/tool-role/elastic-search
+    - /var/lib/jenkins/workspace/jenkins-ansible@libs/28a61761e665d912145acf05efa14781f0e48dcb5c560d14a767607c80d7d0c0/elastic-search
