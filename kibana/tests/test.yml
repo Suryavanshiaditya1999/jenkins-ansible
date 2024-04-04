@@ -1,0 +1,6 @@
+---
+- hosts: server1
+  become: true
+  gather_facts: true
+  roles:
+    - /home/naresh/kibana-tool/tool-role/kibana
